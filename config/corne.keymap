@@ -11,6 +11,12 @@
 
 #define AS(keycode) &as LS(keycode) keycode
 
+// Home row mods macro
+#define HRML(k2,k3,k4) &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
+#define HRMR(k1,k2,k3) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3
+#define WHRML(k2,k3,k4) &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
+#define WHRMR(k1,k2,k3) &ht RCTRL k1  &ht RGUI k2  &ht RALT k3
+
 / {
     chosen {
       zmk,matrix_transform = &five_column_transform;
@@ -37,10 +43,10 @@
 //             | GUI | LWR | SPC |     | ENT | RSE  | BSPC |
                         display-name = "Base";
                         bindings = <
-   AS(Q) AS(W) AS(E) AS(R) AS(T)     AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
-   AS(A) AS(S) AS(D) AS(F) AS(G)     AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
-   AS(Z) AS(X) AS(C) AS(V) AS(B)     AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
-        &kp LGUI &mo 1 &kp SPACE     AS(RET) &mo 2  &kp BSPC
+   &kp Q &kp W &kp E &kp R &kp T     &kp Y   &kp U  &kp I     &kp O     &kp P
+   &kp A HRML(S, D, F) &kp G     &kp H   HRMR(J,  K,       L)     &kp SQT
+   &kp Z &kp X &kp C &kp V &kp B     &kp N   &kp M  &kp LCTL  &kp RALT  &kp DOT
+        &kp LGUI &mo 1 &kp SPACE     &kp RET &mo 2  &kp BSPC
                         >;
                 };
 
