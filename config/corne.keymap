@@ -68,7 +68,7 @@
                         bindings = <
    &kp Q &kp W &kp E &kp R &kp T     &kp Y   &kp U  &kp I     &kp O     &kp P
    &ht LCTRL A &ht LALT S &ht LGUI D &ht LSHFT F &kp G &kp H  &ht LSHFT J &ht LGUI K &ht LALT L &ht LCTRL RET
-   &kp Z &kp X &kp C &kp V &kp B     &kp N   &kp M  &kp COMMA  &kp DOT  &kp SQT
+   &kp Z &kp X &ht LC(C) C &ht LC(V) V &kp B     &kp N   &kp M  &kp COMMA  &kp DOT  &kp SQT
         &mt LC(LS(LALT)) ESC &mo 1 &kp SPACE     &kp BACKSPACE &mo 2  &kp TAB
                         >;
                 };
