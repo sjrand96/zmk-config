@@ -118,9 +118,9 @@
                 lower_layer {
                         display-name = "Lower";
                         bindings = <
-   &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT        &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR
-   &ht PRINTSCREEN LS(LG(4))  &trans &trans &kp PAGE_UP &kp HOME     &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT &trans 
-   &kp INSERT   &trans      &trans       &kp PAGE_DOWN    &kp END                  &kp EXCL    &trans    &trans        &kp QMARK    &kp DQT 
+   &kp P &kp O &kp I &kp U &kp Y        &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR
+   &kp ; &kp L &kp K &kp J &kp H      &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT &trans 
+   &kp SQT   &kp DOT  &kp COMMA  &kp M  &kp N                 &kp EXCL    &trans    &trans        &kp QMARK    &kp DQT 
                              &kp LGUI     &trans       &kp SPACE        &kp DEL   &trans   &kp LS(TAB)
                         >;
                 };
