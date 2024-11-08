@@ -119,8 +119,8 @@
                         display-name = "Lower";
                         bindings = <
    &kp P &kp O &kp I &kp U &kp Y        &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR
-   &kp ; &kp L &kp K &kp J &kp H      &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT &trans 
-   &kp SQT   &kp DOT  &kp COMMA  &kp M  &kp N                 &kp EXCL    &trans    &trans        &kp QMARK    &kp DQT 
+   &kp SEMI &kp L &kp K &kp J &kp H      &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT &trans 
+   &kp SQT &kp DOT  &kp COMMA  &kp M  &kp N                 &kp EXCL    &trans    &trans        &kp QMARK    &kp DQT 
                              &kp LGUI     &trans       &kp SPACE        &kp DEL   &trans   &kp LS(TAB)
                         >;
                 };
