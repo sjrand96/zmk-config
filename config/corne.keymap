@@ -35,9 +35,10 @@
         as: auto_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping_term_ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
+            tapping_term_ms = <185>;
+            quick_tap_ms = <150>;
+            require-prior-idle-ms = <125>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
 
@@ -45,20 +46,22 @@
             label = "hold_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <175>;
-            quick-tap-ms = <0>;
+            flavor = "balanced";
+            tapping-term-ms = <185>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
 
         sht: shift_hold_tap {
-            label = "hold_tap";
+            label = "shift_hold_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <140>;
-            quick-tap-ms = <0>;
+            flavor = "balanced";
+            tapping-term-ms = <170>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
